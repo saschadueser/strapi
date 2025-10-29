@@ -1,3 +1,4 @@
+
 #service .content .button {
     grid-column: 4/10;
 }
@@ -32,7 +33,7 @@ h2 {
 
 .service-item .fa {
     font-size: 3rem;
-    background: linear-gradient(135deg, var(--accentOrange), var(--accentOrangeDarker));
+    background: linear-gradient(135deg, var(--accentOrange), var(--accentOrangeLight));
     background-clip: text;
     color: transparent;
 }

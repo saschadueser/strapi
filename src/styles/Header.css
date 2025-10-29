@@ -24,6 +24,8 @@ header > :nth-child(-n + 2) {
 header .header-logo {
     font-size: 3rem;
     color: #fff;
+    display: flex;
+    align-items: center;
 }
 
 header .nav-trigger {

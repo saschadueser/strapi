@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import '../styles/Header.css'
 import { useState } from 'react';
 
+import Logo from '../assets/images/s-logo-40px.png'
+
 export default function Header() {
 
     const [navOpen, setNavOpen] = useState(false)
@@ -13,7 +15,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className="header-logo">SD</div>
+            <div className="header-logo"><img src={Logo} alt="" /></div>
             <div 
             className={`nav-trigger fa ${navOpen ? "fa-xmark" : "fa-bars"}`}
             onClick={triggerNav}

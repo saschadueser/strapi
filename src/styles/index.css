@@ -11,8 +11,8 @@
 :root {
     --blueLight: rgb(156, 156, 189);
     --blueDark: rgb(77, 77, 118);
-    --accentOrange: rgb(254, 229, 182);
-    --accentOrangeDarker: rgb(255, 202, 102);
+    --accentOrange: rgb(255,192,122);
+    --accentOrangeLight: rgb(255,250,240);
     --blueGradient: linear-gradient(135deg, var(--blueLight), var(--blueDark));
     --blueGradientGlass: linear-gradient(rgba(156,156,189, 0.95), rgba(77,77,118, 0.7));
     --regularShadow: 3px 5px 20px rgba(0,0,0,0.25);

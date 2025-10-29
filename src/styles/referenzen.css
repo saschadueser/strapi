@@ -1,6 +1,18 @@
 
 #referenzen {
     padding: 0;
+    position: relative;
+}
+
+.referenzen-wrapper::after {
+    content: "";
+    width: 100px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    background: url(../assets/images/s-logo-100px.png) no-repeat;
+    position: absolute;
+    opacity: 0.5;
 }
 
 #referenzen .button {
