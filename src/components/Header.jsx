@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
-import './Header.css'
+import '../styles/Header.css'
 import { useState } from 'react';
 
-import Logo from '../../assets/images/s-logo-40px.png'
+import Logo from '../assets/images/s-logo-40px.png'
 
 export default function Header() {
 

@@ -1,15 +1,15 @@
 import { useState } from "react";  
-import './referenzen.css';
+import '../styles/referenzen.css';
 
-import nightlifeLogo from '../../assets/images/logo-nightlifeevents.png'
-import tusLogo from '../../assets/images/logo-tus.png'
-import ttcLogo from '../../assets/images/logo-ttc.png'
+import nightlifeLogo from '../assets/images/logo-nightlifeevents.png'
+import tusLogo from '../assets/images/logo-tus.png'
+import ttcLogo from '../assets/images/logo-ttc.png'
 
-import nightlifePreview from '../../assets/images/projekt-vorschau-nightlifeevents.jpg';
-import tusPreview from '../../assets/images/projekt-vorschau-tuseversten.jpg';
-import ttcPreview from '../../assets/images/projekt-vorschau-ttc.jpg';
+import nightlifePreview from '../assets/images/projekt-vorschau-nightlifeevents.jpg';
+import tusPreview from '../assets/images/projekt-vorschau-tuseversten.jpg';
+import ttcPreview from '../assets/images/projekt-vorschau-ttc.jpg';
 
-import Button from '../Button/Button.jsx'
+import Button from './Button'
             
 export default function ReferenzenBlock() {
 

@@ -1,8 +1,8 @@
 
 
-import '../../styles/service.css'
+import '../styles/service.css'
 
-import Button from '../Button/Button.jsx'
+import Button from '../components/Button'
 
 // Erstellung, Wartung, Optimierung, Support
 

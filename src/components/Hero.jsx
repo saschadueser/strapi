@@ -1,6 +1,6 @@
-import './Hero.css';
+import '../styles/Hero.css';
 
-import Button from '../Button/Button.jsx'
+import Button from './Button.jsx'
 
 export default function Hero({background, headline, text, button = false, buttonText = "Hier klicken"}) {
     return (

@@ -1,5 +1,5 @@
-import Hero from './components/Hero/Hero.jsx';
-import CTA from './components/CTA/CTA-Block.jsx';
+import Hero from './components/Hero';
+import CTA from './components/CTA-Block';
 
 import heroBG from './assets/images/projekt-vorschau-nightlifeevents.jpg';
 

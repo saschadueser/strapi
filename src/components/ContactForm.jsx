@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ContactOptionsBlock from '../Contact-Options-Block/ContactOptionsBlock.jsx'
-import '../../styles/kontakt.css'
+import ContactOptionsBlock from '../components/ContactOptionsBlock.jsx'
+import '../styles/kontakt.css'
 
 export default function ContactForm() {
 
