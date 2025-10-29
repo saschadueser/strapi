@@ -1,0 +1,16 @@
+import '../styles/Hero.css';
+
+import Button from './Button.jsx'
+
+export default function Hero({background, headline, text, button = false, buttonText = "Hier klicken"}) {
+    return (
+            <div id="hero" style={{background: `url(${background}) no-repeat center fixed`, backgroundSize: "cover"}}>
+                <div className='content'>
+                    <h1>{headline}</h1>
+                    <p>{text}</p>
+                    {button ? <Button buttonContent={buttonText} /> : ""}
+                    
+                </div>
+            </div>
+    )
+}

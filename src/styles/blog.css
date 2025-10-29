@@ -1,0 +1,36 @@
+#blog {
+    grid-column: span 12;
+    padding: 0;
+}
+
+#blog .content {
+    padding: 0;
+}
+
+.blog-entry-preview-image {
+    width: 100%;
+    height: 120px;
+    background: url(../assets/images/projekt-vorschau-nightlifeevents.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-entry-preview-content {
+    padding: 0 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    #blog {
+        grid-column: 4/10;
+    }
+
+    .blog-wrapper {
+        display: flex;
+        gap: 10px;
+        flex-flow: row wrap;
+    }
+
+    .blog-entry {
+        flex: 1;
+    }
+}

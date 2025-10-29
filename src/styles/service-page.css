@@ -1,0 +1,52 @@
+.intro-wrapper {
+    grid-column: 2/12;
+}
+
+.services {
+    grid-column: 2/12;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cta { 
+    grid-column: 2/12;
+} 
+
+h1 {
+    grid-column: 2/12;
+}
+
+.services h2 {
+    border-bottom: 1px solid #000;
+    margin: 0;
+    color: transparent;
+
+}
+
+.services h3 {
+    color: var(--blueLight);
+    margin: 0;
+    color: transparent;
+}
+
+.service-title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: var(--blueGradient);
+    background-clip: text;
+}
+
+.service-title .fa {
+    font-size: 3rem;
+    color: transparent;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .services {
+        display: grid;
+        gap: 1rem;
+        grid-template: auto / 1fr 1fr;
+    }
+}

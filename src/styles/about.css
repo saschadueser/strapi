@@ -1,0 +1,17 @@
+
+.about-wrapper {
+    grid-column: 2/12;
+    display: grid;
+    grid-template: var(--gridLayout);
+}
+
+.about-wrapper p {
+    grid-column: span 12;
+}
+
+.about-image {
+    width: 250px;
+    float: left;
+    margin: 0 1rem 0.5rem 0;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 80%, 50% 90%, 0 90%);
+}

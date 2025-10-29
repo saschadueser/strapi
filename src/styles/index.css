@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('./fonts/Lora-VariableFont_wght.ttf');
+}
+
+:root {
+    --blueLight: rgb(156, 156, 189);
+    --blueDark: rgb(77, 77, 118);
+    --accentOrange: rgb(254, 229, 182);
+    --accentOrangeDarker: rgb(255, 202, 102);
+    --blueGradient: linear-gradient(135deg, var(--blueLight), var(--blueDark));
+    --blueGradientGlass: linear-gradient(rgba(156,156,189, 0.95), rgba(77,77,118, 0.7));
+    --regularShadow: 3px 5px 20px rgba(0,0,0,0.25);
+    --regularShadowShortDistance: 3px 3px 10px rgba(0,0,0,0.75);
+    --boxBorderRadius: 25px;
+    --greyBackground: rgba(225,230,235,1);
+
+    --gridLayout: auto / repeat(12, 1fr)
+}
+
+html {
+    font-family: 'Lora';
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--greyBackground);
+} 
+
+p {
+    margin: 1rem 0 2rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+
+    color: transparent;
+    background: var(--blueGradient);
+    background-clip: text;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+section {
+    margin: 3rem 0;
+}
+
+.content {
+    padding: 1rem 0;
+    display: grid;
+    grid-template: var(--gridLayout);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    margin: 1rem 0 2rem 0;
+}
+
+a {
+    transition: 300ms ease-in;
+}
+
+a:hover {
+    color: var(--accentOrange);
+}
+
+.cta {
+    text-align: center;
+}
+
+

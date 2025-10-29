@@ -1,0 +1,15 @@
+footer {
+    background: var(--accentOrange);
+    grid-column: span 12;
+}
+
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-nav {
+    display: flex;
+    gap: 10px;
+}

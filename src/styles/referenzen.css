@@ -1,0 +1,132 @@
+
+#referenzen {
+    padding: 0;
+}
+
+#referenzen .button {
+    grid-column: 2/12;
+    color: #000;
+}
+
+#referenzen a {
+    color: var(--accentOrange);
+    text-decoration: none;
+    position: relative;
+}
+
+#referenzen a::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: var(--accentOrange);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 300ms;
+}
+
+#referenzen a:hover::after {
+    transform: translateX(10%);
+}
+
+#referenzen a:hover {
+    color: var(--accentOrangeDarker);
+}
+
+#referenzen .content {
+    padding: 0;
+}
+
+#referenzen h2 {
+    grid-column: 2/12;
+}
+
+#referenzen h3 {
+    color: var(--accentOrange);
+}
+
+.referenzen-wrapper {
+    grid-column: span 12;
+    display: grid;
+    gap: 1rem;
+    grid-template: var(--gridLayout);
+    text-align: center;
+    background: var(--blueGradient);
+}
+
+.ref-prev {
+    grid-column: span 12;
+    background: url("../assets/images/projekt-vorschau-nightlifeevents.jpg") no-repeat center;
+    background-size: cover;
+    height: 250px;
+}
+
+.ref-desc-area {
+    grid-column: 2/12;
+    overflow: hidden;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.ref-logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.ref-logos > div {
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.ref-desc {
+    display: flex;
+    transition: 300ms ease-in;
+    color: var(--greyBackground);
+}
+
+.ref-desc > .ref-desc-item {
+    flex: 1 0 100%;
+}
+
+.ref-description {
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    #referenzen-wrapper {
+        grid-column: span 12;
+    }
+
+    .ref-prev {
+        height: auto;
+        grid-column: 1/7;
+    }
+
+    .ref-desc-area {
+        grid-column: 7/12;
+    }
+
+    #referenzen .button {
+        grid-column: 4/9;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+
+    #referenzen h2 {
+        grid-column-start: 3;
+    }
+
+    .ref-prev {
+        grid-column: 3/7;
+    }
+
+    .ref-desc-area { 
+        grid-column: 7/10;
+    }
+}
