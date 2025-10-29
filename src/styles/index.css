@@ -9,12 +9,15 @@
 }
 
 :root {
-    --blueLight: rgb(156, 156, 189);
-    --blueDark: rgb(77, 77, 118);
+
+
+
+    --blueLight: #28819d;
+    --blueDark: #08364f;
     --accentOrange: rgb(255,192,122);
     --accentOrangeLight: rgb(255,250,240);
     --blueGradient: linear-gradient(135deg, var(--blueLight), var(--blueDark));
-    --blueGradientGlass: linear-gradient(rgba(156,156,189, 0.95), rgba(77,77,118, 0.7));
+    --blueGradientGlass: linear-gradient(135deg, rgba(28, 112, 137, 0.85), rgba(5, 42, 61, 0.65));
     --regularShadow: 3px 5px 20px rgba(0,0,0,0.25);
     --regularShadowShortDistance: 3px 3px 10px rgba(0,0,0,0.75);
     --boxBorderRadius: 25px;

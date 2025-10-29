@@ -2,8 +2,10 @@
     border-left: 2px solid #fff;
     border-top: 2px solid #fff;
     color: #000;
-    background: linear-gradient(135deg, rgba(237, 245, 255, 0.75) 0%, rgba(176, 212, 253, 0.5) 55%, rgba(176, 212, 253, 0.75) 55%, rgba(50,100,155, 0.95) 100%);
-    background-size: 250%;
+
+    /* linear-gradient(135deg, rgba(28, 112, 137, 0.75), rgba(5, 42, 61, 0.5)) */
+    background: linear-gradient(135deg, rgba(237, 245, 255, 0.75) 0%, rgba(176, 212, 253, 0.5) 33%, rgba(28, 112, 137, 0.95) 33%, rgba(5, 42, 61, 0.75) 66%, rgba(237, 245, 255, 0.75) 66%, rgba(176, 212, 253, 0.5) 100%);
+    background-size: 330%;
     background-position: left;
     padding: 1rem 2rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
@@ -17,11 +19,13 @@
     margin: 1rem 0;
 }
 
-.button:hover {
+.button.hoverIn {
     transform: scale(101%);
+    background-position: center;
+}
+
+.button.hoverOut {
     background-position: right;
-    border-left: 2px solid rgba(216, 234, 255, 0.99);
-    border-top: 2px solid rgba(216, 234, 255, 0.99);
 }
 
 .button:active {
