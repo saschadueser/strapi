@@ -1,6 +1,6 @@
-import Hero from './components/Hero'
-import Button from './components/Button'
-import CTA from './components/CTA-Block'
+import Hero from './components/Hero/Hero.jsx'
+import Button from './components/Button/Button.jsx'
+import CTA from './components/CTA/CTA-Block.jsx'
 
 import HeroImage from './assets/images/projekt-vorschau-tuseversten.jpg'
 

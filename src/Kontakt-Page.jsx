@@ -1,6 +1,6 @@
-import Hero from './components/Hero';
-import ContactForm from './components/ContactForm';
-import ContactOptions from './components/ContactOptionsBlock';
+import Hero from './components/Hero/Hero.jsx';
+import ContactForm from './components/ContactForm/ContactForm.jsx';
+import ContactOptions from './components/Contact-Options-Block/ContactOptionsBlock.jsx';
 
 import backgroundImage from './assets/images/musicbg.jpg'
 

@@ -1,8 +1,8 @@
-import Hero from './components/Hero'
-import ReferenzenBlock from './components/ReferenzenBlock.jsx'
-import ServiceBlock from './components/ServiceBlock.jsx'
+import Hero from './components/Hero/Hero.jsx'
+import ReferenzenBlock from './components/Referenzen-Block/ReferenzenBlock.jsx'
+import ServiceBlock from './components/Service-Block/ServiceBlock.jsx'
 import HeroImage from './assets/images/musicbg.jpg'
-import ContactForm from './components/ContactForm.jsx'
+import ContactForm from './components/ContactForm/ContactForm.jsx'
 
 import './styles/about.css'
 

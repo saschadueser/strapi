@@ -1,4 +1,4 @@
-import Button from '../components/Button.jsx';
+import Button from '../Button/Button.jsx';
 
 export default function CTA({title = "Lass uns zusammenarbeiten", link = "/kontakt", buttonText = "Zum Kontakt"}) {
     return (
