@@ -1,4 +1,4 @@
-import Hero from './components/Hero'
+import Hero from './components/Hero/Hero.jsx'
 import ReferenzenBlock from './components/ReferenzenBlock.jsx'
 import ServiceBlock from './components/ServiceBlock.jsx'
 import HeroImage from './assets/images/musicbg.jpg'

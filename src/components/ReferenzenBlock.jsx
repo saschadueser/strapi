@@ -9,7 +9,7 @@ import nightlifePreview from '../assets/images/projekt-vorschau-nightlifeevents.
 import tusPreview from '../assets/images/projekt-vorschau-tuseversten.jpg';
 import ttcPreview from '../assets/images/projekt-vorschau-ttc.jpg';
 
-import Button from './Button'
+import Button from './Button/Button.jsx'
             
 export default function ReferenzenBlock() {
 

@@ -1,4 +1,4 @@
-import Hero from './components/Hero';
+import Hero from './components/Hero/Hero.jsx';
 import ContactForm from './components/ContactForm';
 import ContactOptions from './components/ContactOptionsBlock';
 

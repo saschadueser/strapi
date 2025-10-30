@@ -5,7 +5,7 @@
 
     /* linear-gradient(135deg, rgba(28, 112, 137, 0.75), rgba(5, 42, 61, 0.5)) */
     background: linear-gradient(135deg, rgba(237, 245, 255, 0.75) 0%, rgba(176, 212, 253, 0.5) 33%, rgba(28, 112, 137, 0.95) 33%, rgba(5, 42, 61, 0.75) 66%, rgba(237, 245, 255, 0.75) 66%, rgba(176, 212, 253, 0.5) 100%);
-    background-size: 330%;
+    background-size: 340%;
     background-position: left;
     padding: 1rem 2rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.15);

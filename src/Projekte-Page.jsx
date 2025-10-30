@@ -1,4 +1,4 @@
-import Hero from './components/Hero';
+import Hero from './components/Hero/Hero.jsx';
 import CTA from './components/CTA-Block';
 
 import heroBG from './assets/images/projekt-vorschau-nightlifeevents.jpg';

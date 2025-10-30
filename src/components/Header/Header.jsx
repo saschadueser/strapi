@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
-import '../styles/Header.css'
+import './Header.css'
 import { useState } from 'react';
 
-import Logo from '../assets/images/s-logo-40px.png'
+import Logo from '../../assets/images/s-logo-40px.png'
 
 export default function Header() {
 
@@ -26,7 +26,6 @@ export default function Header() {
                 <Link to="/referenzen">Referenzen</Link>
                 <Link to="/about">Über Mich</Link>
                 <Link to="/kontakt">Kontakt</Link>
-                <Link to="/blog">Blog</Link>
             </nav>
         </header>
     )
