@@ -16,6 +16,7 @@
     --blueDark: #08364f;
     --accentOrange: rgb(255,192,122);
     --accentOrangeLight: rgb(255,250,240);
+    --accentGradient: linear-gradient(135deg, var(--accentOrange) 50%, var(--accentOrangeLight) 90%);
     --blueGradient: linear-gradient(135deg, var(--blueLight), var(--blueDark));
     --blueGradientGlass: linear-gradient(135deg, rgba(28, 112, 137, 0.85), rgba(5, 42, 61, 0.65));
     --regularShadow: 3px 5px 20px rgba(0,0,0,0.25);

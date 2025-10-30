@@ -3,9 +3,10 @@
 }
 
 .services {
-    grid-column: 2/12;
-    display: flex;
-    flex-flow: column wrap;
+    grid-column: span 12;
+    display: grid;
+    grid-template: var(--gridLayout);
+    gap: 1rem;
 }
 
 .cta { 
@@ -16,37 +17,65 @@ h1 {
     grid-column: 2/12;
 }
 
-.services h2 {
-    border-bottom: 1px solid #000;
+.service-titles h2 {
+    border-bottom: 1px solid #fff;
     margin: 0;
-    color: transparent;
-
 }
 
-.services h3 {
-    color: var(--blueLight);
+.service-titles h3 {
     margin: 0;
-    color: transparent;
 }
 
-.service-title {
+.service-title-wrapper {
     display: flex;
     gap: 1rem;
     align-items: center;
-    background: var(--blueGradient);
-    background-clip: text;
 }
 
-.service-title .fa {
+.service-title-wrapper .fa {
     font-size: 3rem;
-    color: transparent;
+}
 
+.service-member-wrapper:nth-child(odd) .service-title-wrapper {
+    background: var(--accentGradient);
+    background-clip: text;
+    color: transparent;
+}
+
+.service-member-wrapper:nth-child(odd) p {
+    color: #fff;
+}
+
+.service-member-wrapper:nth-child(even) .service-title-wrapper {
+    background: var(--blueGradient);
+    background-clip: text;
+    color: transparent;
+}
+
+.service-member-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 1rem;
+    box-shadow: var(--regularShadow);
+}
+
+.service-member-wrapper:nth-child(odd) {
+    grid-column: 1/10;
+    background: var(--blueGradientGlass);
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.service-member-wrapper:nth-child(even) {
+    grid-column: 4/13;
+    background: var(--accentGradient);
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.service-member {
+    grid-column: 2/7;
 }
 
 @media screen and (min-width: 1024px) {
-    .services {
-        display: grid;
-        gap: 1rem;
-        grid-template: auto / 1fr 1fr;
-    }
 }
