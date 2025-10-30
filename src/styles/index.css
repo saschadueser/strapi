@@ -48,11 +48,14 @@ p {
     margin: 1rem 0 2rem 0;
 }
 
+.cta { 
+    grid-column: 2/12;
+} 
+
 h1 {
     font-size: 3rem;
     font-weight: 800;
-
-    color: transparent;
+    grid-column: 2/12;
     background: var(--blueGradient);
     background-clip: text;
 }
