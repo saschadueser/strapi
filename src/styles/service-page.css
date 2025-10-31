@@ -50,13 +50,17 @@
     grid-template-columns: 0.75fr repeat(6, 1fr) 0.5fr;
     padding: 2rem 0;
     box-shadow: var(--regularShadow);
+    transition: 400ms ease-in;
 }
 
 .service-member-wrapper:nth-child(odd) {
     grid-column: 1/12;
-    background: var(--blueGradientGlass);
+    background: var(--blueGradient);
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
+    transform: translateX(-50%);
+    opacity: 0;
+
 }
 
 .service-member-wrapper:nth-child(even) {
@@ -64,6 +68,8 @@
     background: var(--accentGradient);
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
+    transform: translateX(50%);
+    opacity: 0;
 }
 
 .service-member {
