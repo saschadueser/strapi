@@ -6,7 +6,7 @@ import CTA from './components/CTA-Block'
 import HeroImage from './assets/images/projekt-vorschau-tuseversten.jpg'
 
 import './styles/service-page.css'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 
 export default function Service() {
 
@@ -19,9 +19,11 @@ export default function Service() {
                 if (entry.isIntersecting) {
                     entry.target.style.transform = "translateX(0%)";
                     entry.target.style.opacity = "1";
+                    console.log("bisible")
+                    observer.unobserve(entry.target)
                 }
             })
-        }, {threshold: 0.5});
+        }, {threshold: 0.3, rootMargin: "10px"});
 
         elementsToWatch.current.forEach( el => {
             observer.observe(el)
@@ -38,7 +40,7 @@ export default function Service() {
         <>
             <Hero background={HeroImage} headline="Hi" text="Meine Leistungen für deine Seite" />
 
-            <section>
+            <section id="services">
                 <div className='content'>
                     <h1>Service</h1>
                     <div className='intro-wrapper'>

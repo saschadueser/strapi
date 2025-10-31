@@ -15,7 +15,7 @@ export default function Referenzen() {
         <>
             <Hero background={heroBG} headline="Meine Arbeit" text="Lass dich überzeugen"/>
 
-            <section>
+            <section id="projekte">
                 <div className='content'>
                     <div className='intro'>
                         <h1>Referenzen</h1>
