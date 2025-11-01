@@ -56,6 +56,7 @@ form {
 }
 
 .form-item input, .form-item textarea {
+    font-family: 'Lora';
     padding: 1rem;
     font-size: 1rem;
     border-radius: 10px;

@@ -12,8 +12,8 @@
 
 
 
-    --blueLight: #28819d;
-    --blueDark: #08364f;
+    --blueLight: #348ca7;
+    --blueDark: #13445f;
     --accentOrange: rgb(255,192,122);
     --accentOrangeLight: rgb(255,250,240);
     --accentGradient: linear-gradient(135deg, var(--accentOrange) 50%, var(--accentOrangeLight) 90%);
@@ -58,11 +58,15 @@ h1 {
     grid-column: 2/12;
     background: var(--blueGradient);
     background-clip: text;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
 }
 
 h2 {
     font-size: 2.5rem;
     font-weight: 700;
+    color: var(--blueLight);
 }
 
 h3 {
@@ -83,7 +87,7 @@ h6 {
 }
 
 section {
-    margin: 3rem 0;
+    margin: 5rem 0 3rem 0;
 }
 
 .content {
@@ -107,6 +111,7 @@ a:hover {
 
 .cta {
     text-align: center;
+    margin: 3rem 0;
 }
 
 

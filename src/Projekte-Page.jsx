@@ -18,13 +18,13 @@ export default function Referenzen() {
             <section id="projekte">
                 <div className='content'>
                     <div className='intro'>
-                        <h1>Referenzen</h1>
+                        <h2>Referenzen</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt doloribus molestias illo voluptas porro ipsum sint consectetur quibusdam, sapiente quam corporis architecto voluptatibus, provident esse?</p>
                     </div>
                     <section className='projekte'>
                         <div className='projekt-item'>
                             <div className='projekt-head'>
-                                <h2>Website für Kroatien Partyurlaub</h2>
+                                <h3>Website für Kroatien Partyurlaub</h3>
                             </div>
                             <div className='projekt-body'>
                                 <div className='projekt-bg' style={{background: `url(${NightlifeEventsVorschau})`, backgroundSize: "cover", backgroundPosition: "center"}}></div>
@@ -45,7 +45,7 @@ export default function Referenzen() {
                         </div>
                         <div className='projekt-item'>
                             <div className='projekt-head'>
-                                <h2>Website Neugestaltung für Sportverein</h2>
+                                <h3>Website Neugestaltung für Sportverein</h3>
                             </div>
                             <div className='projekt-body'>
                                 <div className='projekt-bg' style={{background: `url(${TusEverstenVorschau})`, backgroundSize: "cover", backgroundPosition: "center"}}></div>
@@ -66,7 +66,7 @@ export default function Referenzen() {
                         </div>
                         <div className='projekt-item'>
                             <div className='projekt-head'>
-                                <h2>Website Neugestaltung für Tischtennis-Club</h2>
+                                <h3>Website Neugestaltung für Tischtennis-Club</h3>
                             </div>
                             <div className='projekt-body'>
                                 <div className='projekt-bg' style={{background: `url(${TtcOldenburgVorschau})`, backgroundSize: "cover", backgroundPosition: "center"}}></div>

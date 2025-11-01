@@ -9,11 +9,10 @@ h2 {
 
 .service-wrapper {
     grid-column: 2/12;
-    grid-row: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    flex-flow: column wrap;
     text-align: center;
+    gap: 1rem;
 }
 
 
@@ -26,8 +25,8 @@ h2 {
     box-shadow: var(--regularShadow);
     position: relative;
     background: var(--blueGradient);
-    border-left: 2px solid #859ec2;
-    border-top: 2px solid #859ec2;
+    border-left: 2px solid #9db1cd;
+    border-top: 2px solid #adc2e0;
     color: #fff;
 } 
 
@@ -35,6 +34,8 @@ h2 {
     font-size: 3rem;
     background: linear-gradient(135deg, var(--accentOrange), var(--accentOrangeLight));
     background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 }
 

@@ -13,7 +13,7 @@ export default function Index() {
 
     return (
         <>
-            <Hero background={HeroImage} headline="Deine Zielgruppe ist online" text="Ich unterstütze dich gefunden zu werden!" button={true} buttonText='Lass dich überzeugen!'/>
+            <Hero background={HeroImage} headline="Deine Zielgruppe ist online" text="Professionelles Webdesign, mit dem du online gefunden wirst!" button={true} buttonText='Lass dich überzeugen!'/>
 
             <ServiceBlock />
             
@@ -23,7 +23,7 @@ export default function Index() {
                 <div className='content'>
                     <h2>Über Mich</h2>
                     <div className='about-wrapper'>
-                        <p><img className='about-image' src={portrait}/>Just Text Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptate omnis placeat itaque culpa corporis sapiente quod voluptatibus sit veritatis ipsum ipsa expedita, harum animi illo quis suscipit iusto dolore. Voluptatum adipisci voluptates eveniet veniam illum a sint perspiciatis dignissimos nobis ex aliquam ipsam rerum pariatur labore corrupti vero rem tempore culpa, repellat beatae! Distinctio veritatis modi consequatur eaque molestiae nesciunt magni neque dignissimos laboriosam nemo quidem, ipsam atque id quaerat exercitationem aspernatur officia error mollitia eligendi eius voluptate. Vero, iure mollitia ad illum officiis adipisci pariatur magni, recusandae architecto sunt at itaque! Quos sint laudantium accusamus expedita suscipit nemo!</p>
+                        <p><img className='about-image' src={portrait}/>Ich bin Sascha Düser, Webdesigner aus Westerstede mit Leidenschaft für klare Strukturen, moderne Ästhetik und funktionales Design. Mein Ziel: Websites, die nicht nur gut aussehen, sondern Ergebnisse liefern. Mit durchdachtem Webdesign sorge ich dafür, dass deine Marke online überzeugt – auf jedem Gerät und für jede Zielgruppe. Von der ersten Idee bis zum Launch begleite ich dich persönlich und transparent. So entsteht ein authentischer Online-Auftritt, der Vertrauen schafft und dich sichtbar macht.</p>
                     </div>
                 </div>
             </section>
