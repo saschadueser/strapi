@@ -22,13 +22,13 @@
     --regularShadow: 3px 5px 20px rgba(0,0,0,0.25);
     --regularShadowShortDistance: 3px 3px 10px rgba(0,0,0,0.75);
     --boxBorderRadius: 25px;
-    --greyBackground: rgba(225,230,235,1);
+    --greyBackground: linear-gradient(90deg, rgb(248,249,253), rgb(246,247,251));
 
     --gridLayout: auto / repeat(12, 1fr)
 }
 
 html {
-    font-family: 'Lora';
+    font-family: system-ui, 'Lora';
     font-size: 18px;
 }
 
@@ -97,7 +97,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', system-ui;
     margin: 1rem 0 2rem 0;
 }
 

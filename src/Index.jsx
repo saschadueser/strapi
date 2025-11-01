@@ -1,12 +1,13 @@
 import Hero from './components/Hero/Hero.jsx'
 import ReferenzenBlock from './components/ReferenzenBlock.jsx'
 import ServiceBlock from './components/ServiceBlock.jsx'
-import HeroImage from './assets/images/musicbg.jpg'
+import HeroImage from './assets/images/table-bg.jpg'
 import ContactForm from './components/ContactForm.jsx'
 
 import './styles/about.css'
 
-import portrait from './assets/images/about-image-saschadueser.jpg'
+import portrait from './assets/images/about-image-saschadueser.jpg';
+import aboutHeroBG from './assets/images/keyboard-bg.jpg'
 
 
 export default function Index() {
@@ -20,6 +21,7 @@ export default function Index() {
             <ReferenzenBlock />
 
             <section id='about'>
+                <Hero background={aboutHeroBG}/>
                 <div className='content'>
                     <h2>Über Mich</h2>
                     <div className='about-wrapper'>
